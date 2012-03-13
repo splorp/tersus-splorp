@@ -49,6 +49,6 @@ Portions of the stylesheets are based on the [YUI CSS Reset](http://developer.ya
 
 ## Version History
 
-### 0.0.1
+### 0.1.0
 
-+ Initial tinkering.
++ Initial release based on the final advanced “flavour” from the Tersus theme
