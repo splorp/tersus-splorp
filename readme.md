@@ -1,7 +1,9 @@
 
 # Splorp for Tersus
 
-An achingly simple child theme built for [Tersus](http://tersustheme.com/)
+An achingly simple child theme for [Tersus](http://tersustheme.com/).
+
+This theme can be seen in action on [Grant Hutchinson’s personal site](http://splorp.me/).
 
 
 ## About
