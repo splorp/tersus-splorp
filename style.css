@@ -274,6 +274,17 @@ footer {
 
 
 /*
+	Gallery Styles
+*/
+
+.gallery dd,
+.gallery dl,
+.gallery dt {
+	margin-left: 0;
+	}
+
+
+/*
 	iPad Styles
 */
 
