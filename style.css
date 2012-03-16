@@ -118,6 +118,10 @@ header p {
 	padding: 0;
 	}
 	
+header section {
+	margin-bottom: 2em;
+	}
+
 #content {
 	float: left;
 	margin: 0;
