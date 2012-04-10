@@ -183,10 +183,18 @@ header section {
 	padding: 0 0 1em 0;
 	}
 
-#content article img {
+article img {
 	display: block;
 	margin: 2em 0;
 	max-width: 100%;
+	}
+	article .alignleft {
+		float: left;
+		margin: 0 1em 1em 0;
+	}
+	article .alignright {
+		float: right;
+		margin: 0 0 1em 1em;
 	}
 
 aside {
