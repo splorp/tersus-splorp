@@ -277,10 +277,27 @@ footer {
 	Gallery Styles
 */
 
+.gallery {
+	float: right;
+	}
+
+.gallery dl {
+	display: inline;
+	float: left;
+	margin-left: 0;
+	}
+
 .gallery dd,
-.gallery dl,
 .gallery dt {
 	margin-left: 0;
+	}
+
+.thumbnail dl {
+	width: 150px;
+	}
+
+.medium dl {
+	width: 300px;
 	}
 
 
