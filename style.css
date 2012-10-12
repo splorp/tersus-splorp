@@ -47,6 +47,14 @@ code {
 	padding: 0.3em 0.5em;
 	}
 
+p.published {
+	color: #AAA;
+	}
+	
+li p.published {
+	margin-bottom: 0.5em;
+	}
+
 .post-edit-link,
 .post-edit-link:visited,
 input[type=reset],
