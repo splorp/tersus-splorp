@@ -189,13 +189,15 @@ article img {
 	margin: 2em 0;
 	max-width: 100%;
 	}
-	article .alignleft {
-		float: left;
-		margin: 0 1em 1em 0;
+
+article .alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
 	}
-	article .alignright {
-		float: right;
-		margin: 0 0 1em 1em;
+
+article .alignright {
+	float: right;
+	margin: 0 0 1em 1em;
 	}
 
 aside {
@@ -318,30 +320,32 @@ footer {
 	body {
 		-webkit-text-size-adjust: 100%;
 		padding: 1em;
-	}
+		}
 	
 	header,
 	footer {
 		float: none;
 		width: auto;
-	}
+		}
+
 	#content {
 		float: left;
 		width: 65%;
-	}
+		}
+
 	aside {
 		float: right;
 		clear: right;
 		width: 25%;
-	}
+		}
 	
 	#content article img {
 		float: none;
-	}
+		}
 	
 	textarea {
 		max-width: 100%;
-	}
+		}
 }
 	
 	
@@ -354,7 +358,7 @@ footer {
 	body {
 		-webkit-text-size-adjust: 100%;
 		padding: 1em;
-	}
+		}
 	
 	header,
 	#content,
@@ -362,17 +366,17 @@ footer {
 	footer {
 		float: none;
 		width: 95%;
-	}
+		}
 	
 	aside {
 		padding: 0;
-	}
+		}
 
 	#content article img {
 		float: none;
-	}
+		}
 	
 	textarea {
 		max-width: 100%;
-	}
+		}
 }
