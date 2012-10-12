@@ -49,6 +49,10 @@ The Tersus theme is absolutely free and conveniently licensed under GPL. You may
 
 ## Version History
 
+### 0.1.1
+
++ 
+
 ### 0.1.0
 
 + Initial release based on the final advanced “flavour” from the Tersus theme
