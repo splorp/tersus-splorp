@@ -338,13 +338,12 @@ footer {
 
 	#content {
 		float: left;
-		width: 65%;
+		width: 55%;
 		}
 
 	aside {
 		float: right;
-		clear: right;
-		width: 25%;
+		width: 35%;
 		}
 	
 	#content article img {
