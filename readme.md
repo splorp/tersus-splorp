@@ -56,9 +56,8 @@ The Tersus theme is absolutely free and conveniently licensed under GPL. You may
 + Changed iPad aside layout to a single column
 + Collapsed gallery margins
 + Simplified article img selector
-+ Added selectors for standard WordPress image alignment classes
-
-
++ Added selectors for standard image alignment classes
++ Added function to retrieve child theme information as constants
 
 ### 0.1.0
 
