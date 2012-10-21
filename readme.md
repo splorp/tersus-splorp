@@ -61,6 +61,9 @@ The [HTML5 Shiv](https://github.com/afarkas/html5shiv) script is licensed under 
 
 ## Version History
 
+### 0.1.2
+
+
 ### 0.1.1
 
 + Fixed announcement section margin
