@@ -63,6 +63,8 @@ The [HTML5 Shiv](https://github.com/afarkas/html5shiv) script is licensed under 
 
 ### 0.1.2
 
++ Form field width and color consistency tweaks
+
 
 ### 0.1.1
 

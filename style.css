@@ -91,12 +91,6 @@ input[type=url] {
 	border-radius: 3px;
 	font-size: .8em;
 	padding: .5em;
-	}
-
-#searchform input[type=text] {
-	background: #DDD;
-	color: #333;
-	border: 1px solid transparent;
 	width: 95%;
 	}
 
