@@ -342,10 +342,36 @@ footer {
 		width: 95%;
 		}
 	
+	header {
+		border-bottom: 1px solid #AAA;
+		margin: 0 0 1em 0;
+		padding: 0 0 1em 0;
+		}
+
 	aside {
 		padding: 0;
 		}
 
+	aside ul li form,
+	aside ul li ul {
+		margin: 0 0 1em 0;
+		}
+
+	footer {
+		padding: 1em 0;
+		}
+
+	header h1,
+	article h2,
+	#content h2 {
+		font-size: 200%;
+		}
+
+	#content article {
+		margin: 0 0 1em 0;
+		padding: 0 0 .5em 0;
+		}
+		
 	#content article img {
 		float: none;
 		}
@@ -353,4 +379,5 @@ footer {
 	textarea {
 		max-width: 100%;
 		}
+
 }
