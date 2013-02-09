@@ -64,6 +64,9 @@ The [HTML5 Shiv](https://github.com/afarkas/html5shiv) script is licensed under 
 ### 0.1.2
 
 + Form field width and color consistency tweaks
++ Reduced font size for small screens
++ Embiggened theme screenshot to support HiDPI displays
++ Added support for the proliferation of various iOS and Windows 8 iconography
 
 
 ### 0.1.1
