@@ -288,6 +288,16 @@ footer {
 
 
 /*
+	List Format Styles
+*/
+
+span.summary {
+	display: none;
+	}
+
+
+
+/*
 	iPad Styles
 */
 
