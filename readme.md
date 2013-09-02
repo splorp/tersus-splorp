@@ -29,6 +29,11 @@ Keep track of Tersus development on [Twitter](http://twitter.com/tersustheme).
 + Clean, valid, and awesome
 
 
+## Requirements
+
+* WordPress 3.0 or later
+
+
 ## Child Themes
 
 By removing the majority of the presentational markup from the Tersus parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently two child themes being developed for Tersus.
@@ -45,7 +50,7 @@ Lovely chaps, all of them.
 
 The groundwork for Tersus was based on the [Starkers](http://starkerstheme.com/) theme created by the affable [Elliot Jay Stocks](http://elliotjaystocks.com/).
 
-We’d also like to give some props to the fine individuals and handy resources which have made the development of Tersus much more enjoyable. Currently on the guest list are [Grettir Asmundarson](http://tinypineapple.com/), [Beau Calvez](http://twitter.com/avengio), [Adam Chamberlin](http://shibbyonline.co.uk/), [David Kendal](http://davidkendal.net/), [BBEdit](http://www.barebones.com/products/bbedit/), [CSS Lint](http://csslint.net/), [GitHub for Mac](http://mac.github.com/), Google’s [Rich Snippets Testing Tool](http://www.google.com/webmasters/tools/richsnippets), and [HTML5 Shiv](https://github.com/aFarkas/html5shiv).
+We’d also like to give some props to the fine individuals and handy resources which have made the development of Tersus much more enjoyable. Currently on the guest list are [Grettir Asmundarson](http://tinypineapple.com/), [Beau Calvez](http://twitter.com/avengio), [Adam Chamberlin](http://shibbyonline.co.uk/), [David Kendal](http://davidkendal.net/), [BBEdit](http://www.barebones.com/products/bbedit/), [CSS Lint](http://csslint.net/), [GitHub for Mac](http://mac.github.com/), Google’s [Rich Snippets Testing Tool](http://www.google.com/webmasters/tools/richsnippets), [HTML5 Shiv](https://github.com/aFarkas/html5shiv), and [Theme-Check](http://pross.org.uk/plugins/theme-check/).
 
 Cheers.
 
