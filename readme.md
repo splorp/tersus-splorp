@@ -32,6 +32,7 @@ Keep track of Tersus development on [Twitter](http://twitter.com/tersustheme).
 ## Requirements
 
 * WordPress 3.0 or later
+* [Tersus](http://tersustheme.com/) parent theme
 
 
 ## Child Themes
@@ -68,7 +69,9 @@ The [HTML5 Shiv](https://github.com/afarkas/html5shiv) script is licensed under 
 
 ### 0.1.2
 
++ Theme now requires WordPress 3.0 or later
 + Form field width and color consistency tweaks
++ Fixed display of `span` elements containing `vevent` summary values 
 + Reduced font size for small screens
 + Embiggened theme screenshot to support HiDPI displays
 + Added support for the proliferation of various iOS and Windows 8 iconography
