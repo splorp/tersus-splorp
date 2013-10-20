@@ -72,9 +72,12 @@ The [HTML5 Shiv](https://github.com/afarkas/html5shiv) script is licensed under 
 + Theme now requires WordPress 3.0 or later
 + Form field width and color consistency tweaks
 + Fixed display of `span` elements containing `vevent` summary values 
++ Removed vendor prefixes from `border-radius` property
++ Moved theme CSS into style subdirectory
 + Reduced font size for small screens
 + Embiggened theme screenshot to support HiDPI displays
 + Added support for the proliferation of various iOS and Windows 8 iconography
++ Replaced the rather free spirited theme tags with a set of “official” WordPress tags
 
 
 ### 0.1.1
