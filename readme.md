@@ -73,6 +73,7 @@ The [HTML5 Shiv](https://github.com/afarkas/html5shiv) script is licensed under 
 + Form field width and color consistency tweaks
 + Fixed display of `span` elements containing `vevent` summary values 
 + Removed vendor prefixes from `border-radius` property
++ Added basic stylee for navigation menu and footer links
 + Moved theme CSS into style subdirectory
 + Reduced font size for small screens
 + Embiggened theme screenshot to support HiDPI displays
