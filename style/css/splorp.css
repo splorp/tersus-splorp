@@ -52,7 +52,7 @@ input[type=submit] {
 	border: none;
 	background: #AAA;
 	color: #FFF;
-	font-size: .8em;
+	font-size: 0.8em;
 	cursor: pointer;
 	padding: 5px 10px;
 	border-radius: 3px;
@@ -77,8 +77,9 @@ input[type=url] {
 	color: #333;
 	border: 1px solid #AAA;
 	border-radius: 3px;
-	font-size: .8em;
-	padding: .5em;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+	padding: 0.5em;
 	width: 95%;
 	}
 
@@ -99,7 +100,7 @@ article h2,
 	font-size: 300%;
 	letter-spacing: -1px;
 	line-height: 1;
-	margin: 0 0 .25em 0;
+	margin: 0 0 0.25em 0;
 	padding: 0;
 	}
 
@@ -137,14 +138,18 @@ header section {
 
 #content > h2 {
     border-bottom: 1px solid #AAA;
-    padding: 0 0 .75em 0;
-    margin: 0 0 .5em 0;
+    padding: 0 0 0.75em 0;
+    margin: 0 0 0.5em 0;
     }
 
 #content article {
 	border-bottom: 1px solid #AAA;
 	margin: 0 0 2em 0;
 	padding: 0 0 1em 0;
+	}
+
+#comment {
+	margin-bottom: 2em;
 	}
 
 article img {
@@ -198,8 +203,8 @@ aside ul li ul li ul {
 aside h2 {
 	border-bottom: 1px solid #AAA;
 	font-size: 1em;
-	margin: 0 0 .5em 0;
-	padding: 0 0 .5em 0;
+	margin: 0 0 0.5em 0;
+	padding: 0 0 0.5em 0;
 	}
 
 nav {
@@ -259,7 +264,7 @@ footer ul li {
 
 .post-quote blockquote p {
 	font: normal 1.4em/1.4 georgia,times,serif;
-	margin: 0 0 .2em;
+	margin: 0 0 0.2em;
 	}
 	
 .post-quote p cite {
@@ -397,7 +402,7 @@ span.summary {
 
 	#content article {
 		margin: 0 0 1em 0;
-		padding: 0 0 .5em 0;
+		padding: 0 0 0.5em 0;
 		}
 		
 	#content article img {
