@@ -47,8 +47,14 @@ li p.published {
 
 .post-edit-link,
 .post-edit-link:visited,
-input[type=reset],
-input[type=submit] {
+#comment a[href*="action=logout"],
+#comment a[href*="action=logout"]:visited,
+a[href*="action=editcomment"],
+a[href*="action=editcomment"]:visited,
+a[href*="replytocom="],
+a[href*="replytocom="]:visited,
+input[type="reset"],
+input[type="submit"] {
 	border: none;
 	background: #AAA;
 	color: #FFF;
@@ -59,21 +65,24 @@ input[type=submit] {
 	}
 
 .post-edit-link:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
+#comment a[href*="action=logout"]:hover,
+a[href*="action=editcomment"]:hover,
+a[href*="replytocom="]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
 	background: #333;
 	color: #FFF;
 	}
 	
-input[type=reset]:active,
-input[type=submit]:active {
+input[type="reset"]:active,
+input[type="submit"]:active {
 	background: #960;
 	}
 
 textarea,
-input[type=text],
-input[type=email],
-input[type=url] {
+input[type="text"],
+input[type="email"],
+input[type="url"] {
 	color: #333;
 	border: 1px solid #AAA;
 	border-radius: 3px;
@@ -83,7 +92,7 @@ input[type=url] {
 	width: 95%;
 	}
 
-#searchform input[type=submit] {
+#searchform input[type="submit"] {
 	display: none;
 	}
 
