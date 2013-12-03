@@ -11,7 +11,8 @@ body {
 	padding: 2em;
 }
 
-a, a:visited {
+a,
+a:visited {
 	background: transparent;
 	color: #960;
 	text-decoration: none;
@@ -132,16 +133,17 @@ header section {
 
 #content > h1 {
 	color: #960;
-	font-weight: normal;
 	font-size: 2em;
+	font-weight: normal;
 	line-height: 1;
 	margin: 0 0 1%;
 	}
 
 #content > h1 + p {
 	color: #AAA;
-	font: normal 1em sans-serif;
+	font-size: 1em;
 	font-style: italic;
+	font-weight: normal;
 	margin: 0 0 2%;
 	}
 
@@ -324,13 +326,18 @@ a[rel="prev"]:hover:before {
 	}
 
 .post-quote blockquote p {
-	font: normal 1.4em/1.4 georgia,times,serif;
+	font-family: georgia, times, serif;
+	font-size: 1.4em;
+	font-weight: normal;
+	line-height: 1.4;
 	margin: 0 0 0.2em;
 	}
 	
 .post-quote p cite {
 	display: block;
-	font: bold 60% sans-serif;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
 	text-align: right;
 	}
 	
