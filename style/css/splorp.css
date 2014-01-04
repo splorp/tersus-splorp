@@ -65,8 +65,21 @@ input[type="submit"] {
 	padding: 5px 10px;
 	}
 
+#cancel-comment-reply-link,
+#cancel-comment-reply-link:visited {
+	background: #AAA;
+	border-radius: 3px;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 0.5em;
+	font-weight: normal;
+	padding: 5px 10px;
+	}
+
 .post-edit-link:hover,
 #respond a[href*="action=logout"]:hover,
+#cancel-comment-reply-link:hover,
 a[href*="action=editcomment"]:hover,
 a[href*="replytocom="]:hover,
 input[type="reset"]:hover,
