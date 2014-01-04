@@ -48,8 +48,8 @@ li p.published {
 
 .post-edit-link,
 .post-edit-link:visited,
-#comment a[href*="action=logout"],
-#comment a[href*="action=logout"]:visited,
+#respond a[href*="action=logout"],
+#respond a[href*="action=logout"]:visited,
 a[href*="action=editcomment"],
 a[href*="action=editcomment"]:visited,
 a[href*="replytocom="],
@@ -66,7 +66,7 @@ input[type="submit"] {
 	}
 
 .post-edit-link:hover,
-#comment a[href*="action=logout"]:hover,
+#respond a[href*="action=logout"]:hover,
 a[href*="action=editcomment"]:hover,
 a[href*="replytocom="]:hover,
 input[type="reset"]:hover,
@@ -159,7 +159,7 @@ header section {
 	padding: 0 0 1em 0;
 	}
 
-#comment {
+#respond {
 	margin-bottom: 2em;
 	}
 
