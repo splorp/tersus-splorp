@@ -178,6 +178,7 @@ header section {
 
 article img {
 	display: block;
+	height: auto;
 	margin: 2em 0;
 	max-width: 100%;
 	}
