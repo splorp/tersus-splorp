@@ -38,11 +38,11 @@ code {
 	padding: 0.3em 0.5em;
 	}
 
-p.published {
+.published {
 	color: #AAA;
 	}
 	
-li p.published {
+li .published {
 	margin-bottom: 0.5em;
 	}
 
@@ -394,7 +394,7 @@ a[rel="prev"]:hover:before {
 	List Format Styles
 */
 
-span.summary {
+.summary {
 	display: none;
 	}
 
