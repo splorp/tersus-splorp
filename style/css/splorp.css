@@ -280,42 +280,37 @@ footer ul li {
 
 a[rel="next"],
 a[rel="prev"] {
+	background: #FFF;
 	border-radius: 3px;
-	color: #960;
+	border: 1px solid #DDD;
+	color: #999;
 	cursor: pointer;
 	font-size: 0.8em;
+	line-height: 1.0;
 	padding: 5px 10px;
 	}
 
 a[rel="next"]:hover,
 a[rel="prev"]:hover {
-	color: #999;
+	background: #AAA;
+	border: 1px solid #AAA;
+	color: #FFF;
 	}
 
 a[rel="next"]::after {
-	color: #CCC;
-	content: '}';
-	font-size: 2.1em;
-	left: 0.2em;
-	position: relative;
-	top: 0.13em;
+	content: ' ›';
 	}
 
 a[rel="prev"]::before {
-	color: #CCC;
-	content: '{';
-	font-size: 2.1em;
-	left: -0.2em;
-	position: relative;
-	top: 0.13em;
+	content: '‹ ';
 	}
 
-a[rel="next"]:hover:after {
-	color: #FFF;
+a[rel="prev"] {
+	float: left;
 	}
 
-a[rel="prev"]:hover:before {
-	color: #FFF;
+a[rel="next"] {
+	float: right;
 	}
 
 
