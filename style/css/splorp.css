@@ -106,6 +106,10 @@ input[type="url"] {
 	width: 95%;
 	}
 
+input[type="checkbox"] {
+    margin-right: .5em;
+	}
+
 #searchform input[type="submit"] {
 	display: none;
 	}
@@ -144,6 +148,10 @@ header section {
 	width: 49%;
 	}
 
+#content > p {
+	margin-bottom: 2em;
+	}
+	
 #content > h1 {
 	color: #960;
 	font-size: 2em;
@@ -170,6 +178,11 @@ header section {
 	border-bottom: 1px solid #AAA;
 	margin: 0 0 2em 0;
 	padding: 0 0 1em 0;
+	}
+
+#content > nav {
+	border: none;
+	float: none;
 	}
 
 #respond {
@@ -389,7 +402,8 @@ a[rel="next"] {
 	List Format Styles
 */
 
-.summary {
+.summary,
+.location {
 	display: none;
 	}
 
