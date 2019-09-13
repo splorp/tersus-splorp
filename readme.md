@@ -8,7 +8,7 @@ An achingly simple child theme for [Tersus](http://tersustheme.com/).
 
 Tersus is an exercise in publishing template minimalism.
 
-By removing the majority of the presentational markup and other cruft from the [Tersus](http://tersustheme.com/) parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently two child themes being developed for Tersus.
+By removing the majority of the presentational markup and other cruft from the [Tersus](http://tersustheme.com/) parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently three child themes being developed for Tersus.
 
 + [Newted](http://github.com/splorp/newted/) by [Grant Hutchinson](http://splorp.me/)
 + [Splorp](http://github.com/splorp/splorp/) by [Grant Hutchinson](http://splorp.me/)
@@ -52,14 +52,15 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 + Fixed display of `span` elements containing `vevent` summary values 
 + Removed vendor prefixes from `border-radius` property
 + Removed `float` alignment declarations now defined by parent theme
-+ Added basic stylee for navigation menu and footer links
-+ Added basic stylee for post and page navigation
++ Added basic styles for navigation menu and footer links
++ Added basic styles for post and page navigation
 + Modified navigation link delimiters
 + Styled the “Cancel Reply” link
 + Reinstated default comment form selectors
 + Updated button styles on form actions
 + Updated form field width and color for consistency
 + Reduced font size for small screens
++ Converted some leftover `px` to `em`
 + Fixed responsive image scaling
 + Moved theme CSS into style subdirectory
 + Added Template Version to theme file header
