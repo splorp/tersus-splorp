@@ -29,7 +29,7 @@ Keep track of Tersus development on [Twitter](http://twitter.com/tersustheme).
 
 ## Requirements
 
-* WordPress 3.4 or later
+* WordPress 4.1 or later
 * [Tersus](http://tersustheme.com/) parent theme
 
 
@@ -48,16 +48,19 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ### 0.1.2
 
-+ Theme now requires WordPress 3.4 or later
 + Replaced deprecated `get_theme_data()` function with `wp_get_theme()`
 + Fixed display of `span` elements containing `vevent` summary values 
 + Removed vendor prefixes from `border-radius` property
 + Removed `float` alignment declarations now defined by parent theme
 + Added basic stylee for navigation menu and footer links
 + Added basic stylee for post and page navigation
++ Modified navigation link delimiters
++ Styled the “Cancel Reply” link
++ Reinstated default comment form selectors
 + Updated button styles on form actions
 + Updated form field width and color for consistency
 + Reduced font size for small screens
++ Fixed responsive image scaling
 + Moved theme CSS into style subdirectory
 + Added Template Version to theme file header
 + Embiggened theme screenshot to support HiDPI displays

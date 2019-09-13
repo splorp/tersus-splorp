@@ -57,24 +57,24 @@ a[href*="replytocom="]:visited,
 input[type="reset"],
 input[type="submit"] {
 	background: #AAA;
-	border-radius: 3px;
+	border-radius: 0.5em;
 	border: none;
 	color: #FFF;
 	cursor: pointer;
 	font-size: 0.8em;
-	padding: 5px 10px;
+	padding: 0.6em 1.0em;
 	}
 
 #cancel-comment-reply-link,
 #cancel-comment-reply-link:visited {
 	background: #AAA;
-	border-radius: 3px;
+	border-radius: 0.5em;
 	border: none;
 	color: #FFF;
 	cursor: pointer;
 	font-size: 0.5em;
 	font-weight: normal;
-	padding: 5px 10px;
+	padding: 0.6em 1.0em;
 	}
 
 .post-edit-link:hover,
@@ -97,7 +97,7 @@ textarea,
 input[type="text"],
 input[type="email"],
 input[type="url"] {
-	border-radius: 3px;
+	border-radius: 0.5em;
 	border: 1px solid #AAA;
 	color: #333;
 	font-size: 0.8em;
@@ -294,13 +294,13 @@ footer ul li {
 a[rel="next"],
 a[rel="prev"] {
 	background: #FFF;
-	border-radius: 3px;
+	border-radius: 0.5em;
 	border: 1px solid #DDD;
 	color: #999;
 	cursor: pointer;
 	font-size: 0.8em;
 	line-height: 1.0;
-	padding: 5px 10px;
+	padding: 0.6em 1.0em;
 	}
 
 a[rel="next"]:hover,
