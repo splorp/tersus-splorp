@@ -1,7 +1,7 @@
 
 # Splorp for Tersus
 
-An achingly simple child theme for [Tersus](http://tersustheme.com/).
+An achingly simple child theme for [Tersus](https://tersustheme.com/).
 
 
 ## About
@@ -10,11 +10,11 @@ Tersus is an exercise in publishing template minimalism.
 
 By removing the majority of the presentational markup and other cruft from the [Tersus](http://tersustheme.com/) parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently three child themes being developed for Tersus.
 
-+ [Newted](http://github.com/splorp/newted/) by [Grant Hutchinson](http://splorp.me/)
-+ [Splorp](http://github.com/splorp/splorp/) by [Grant Hutchinson](http://splorp.me/)
++ [Newted](https://github.com/splorp/newted/) by [Grant Hutchinson](https://splorp.me/)
++ [Splorp](https://github.com/splorp/splorp/) by [Grant Hutchinson](https://splorp.me/)
 + [Super Ginormous](https://github.com/cdharrison/super-ginormous) by [Chris Harrison](http://cdharrison.com/)
 
-Keep track of Tersus development on [Twitter](http://twitter.com/tersustheme).
+Keep track of Tersus development on [Twitter](https://twitter.com/tersustheme).
 
 
 ## Features
@@ -30,7 +30,7 @@ Keep track of Tersus development on [Twitter](http://twitter.com/tersustheme).
 ## Requirements
 
 * WordPress 4.1 or later
-* [Tersus](http://tersustheme.com/) parent theme
+* [Tersus](https://tersustheme.com/) parent theme
 
 
 ## Credits
