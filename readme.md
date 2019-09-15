@@ -46,6 +46,11 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ## Version History
 
+### 0.1.3
+
++ Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.0
+
+
 ### 0.1.2
 
 + Replaced deprecated `get_theme_data()` function with `wp_get_theme()`
