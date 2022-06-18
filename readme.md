@@ -40,7 +40,9 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for a current l
 
 ## Licensing
 
-This child theme is absolutely free and conveniently licensed under GPL. You may use it for personal or commercial projects, as you see fit. Refer to the [license.txt](https://github.com/splorp/splorp/blob/master/license.txt) file included with the source for more information.
+The Tersus theme is absolutely free and conveniently licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html). You may use it for personal or commercial projects, as you see fit. Please refer to the [license](https://github.com/splorp/tersus/blob/master/license.txt) included with the source for more information.
+
+Copyright © 2012–2022 Grant Hutchinson
 
 See the main [Tersus](https://github.com/splorp/tersus/) project for related third party [licensing information](https://github.com/splorp/tersus/#licensing).
 
