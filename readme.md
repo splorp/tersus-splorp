@@ -1,5 +1,5 @@
 
-# Splorp for Tersus
+# Tersus: Splorp
 
 An achingly simple child theme for [Tersus](https://tersustheme.com/).
 

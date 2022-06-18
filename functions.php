@@ -6,7 +6,7 @@
 
 // Define Child Theme Constants
 
-	$theme_name = 'splorp';
+	$theme_name = 'tersus-splorp';
 	$theme_data = wp_get_theme($theme_name);
 	
 	define('CHILD_THEME_URI', $theme_data->get('ThemeURI'));
@@ -31,18 +31,29 @@ if ( ! function_exists('theme_support_features') ) {
 	add_action( 'after_setup_theme', 'theme_support_features' );
 }
 
+// Page menu support
+// http://codex.wordpress.org/Function_Reference/register_nav_menus
+
+if ( ! function_exists('register_my_menus') ) {
+	function register_my_menus() {
+		register_nav_menus(
+			array( 'header-menu' => __('Header Menu', 'tersus-splorp') )
+		);
+	}
+	add_action( 'init', 'register_my_menus' );
+}
 
 // Child Theme Navigation Link Delimiters
 
-if ( ! function_exists( 'splorp_delim' ) ) {
-	function splorp_delim($d) {
+if ( ! function_exists( 'tersus_splorp_delim' ) ) {
+	function tersus_splorp_delim($d) {
 		return '&nbsp;';
 		}
 	
-	add_filter( 'post_link_delim', 'splorp_delim' );
-	add_filter( 'posts_link_delim', 'splorp_delim' );
-	add_filter( 'image_link_delim', 'splorp_delim' );
-	add_filter( 'comment_link_delim', 'splorp_delim' );
+	add_filter( 'post_link_delim', 'tersus_splorp_delim' );
+	add_filter( 'posts_link_delim', 'tersus_splorp_delim' );
+	add_filter( 'image_link_delim', 'tersus_splorp_delim' );
+	add_filter( 'comment_link_delim', 'tersus_splorp_delim' );
 	
 	}
 ?>
