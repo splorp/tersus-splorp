@@ -1,14 +1,14 @@
 
 # Tersus: Splorp
 
-An achingly simple child theme for [Tersus](https://tersustheme.com/).
+An achingly simple child theme for [Tersus](https://github.com/splorp/tersus/).
 
 
 ## About
 
 Tersus is an exercise in publishing template minimalism.
 
-By removing the majority of the presentational markup and other cruft from the [Tersus](http://tersustheme.com/) parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently three child themes being developed for Tersus.
+By removing the majority of the presentational markup and other cruft from the [Tersus](https://github.com/splorp/tersus/) parent theme, we’ve opened the door for child themes to pick up the aesthetic slack. There are currently three child themes being developed for Tersus.
 
 + [Newted](https://github.com/splorp/newted/) by [Grant Hutchinson](https://splorp.me/)
 + [Splorp](https://github.com/splorp/splorp/) by [Grant Hutchinson](https://splorp.me/)
@@ -23,14 +23,15 @@ Keep track of Tersus development on [Twitter](https://twitter.com/tersustheme).
 + CSS that has been reset and built from the ground up
 + Non-semantic, presentational markup has been dispatched
 + Built-in theme options for navigation, sidebar, footer, and announcement text
++ Two widget-enabled sidebar areas
 + Responsive, adaptive layout for small screens
 + Clean, valid, and awesome
-
++ WordPress [Theme Review Process](https://make.wordpress.org/themes/handbook/review/) compliance
 
 ## Requirements
 
-* WordPress 4.1 or later
-* [Tersus](https://tersustheme.com/) parent theme
+* WordPress 5.0 or later
+* [Tersus](https://github.com/splorp/tersus/) parent theme 0.4.0 or later
 
 
 ## Credits
@@ -46,11 +47,19 @@ Copyright © 2012–2022 Grant Hutchinson
 
 See the main [Tersus](https://github.com/splorp/tersus/) project for related third party [licensing information](https://github.com/splorp/tersus/#licensing).
 
+
 ## Version History
 
 ### 0.1.3
 
-+ Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.0
++ Theme now requires WordPress 5.0 or later
++ Theme now requires [Tersus](https://github.com/splorp/tersus/) parent theme 0.4.0 or later
++ Added `automatic-feed-links` and `title-tag` theme support features
++ Added `register_nav_menus` function to support the theme text domain
++ Updated theme name for consistency with the theme text domain and function namespace
++ Embiggened site icon artwork
++ Removed legacy icon and artwork files
++ Updated license to [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 
 ### 0.1.2
