@@ -14,6 +14,23 @@
 	define('CHILD_THEME_VERSION', trim($theme_data->get('Version')));
 	define('CHILD_THEME_DESCRIPTION', trim($theme_data->get('Description')));
 
+// Theme feature support
+ 
+if ( ! function_exists('theme_support_features') ) {
+	function theme_support_features() {
+
+		// Add theme support for automatic feed links
+		// http://codex.wordpress.org/Automatic_Feed_Links
+		add_theme_support( 'automatic-feed-links' );
+
+		// Add theme support for document title tag
+		// https://codex.wordpress.org/Title_Tag
+		add_theme_support( 'title-tag' );
+
+		}
+	add_action( 'after_setup_theme', 'theme_support_features' );
+}
+
 
 // Child Theme Navigation Link Delimiters
 
