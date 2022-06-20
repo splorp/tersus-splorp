@@ -23,6 +23,10 @@ if ( ! function_exists('theme_support_features') ) {
 		// http://codex.wordpress.org/Automatic_Feed_Links
 		add_theme_support( 'automatic-feed-links' );
 
+		// Add theme support for featured images
+		// http://codex.wordpress.org/Post_Thumbnails
+		add_theme_support( 'post-thumbnails' );
+
 		// Add theme support for document title tag
 		// https://codex.wordpress.org/Title_Tag
 		add_theme_support( 'title-tag' );
