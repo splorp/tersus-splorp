@@ -32,7 +32,7 @@ Keep track of Tersus development on [Twitter](https://twitter.com/tersustheme).
 ## Requirements
 
 * WordPress 5.0 or later
-* [Tersus](https://github.com/splorp/tersus/) parent theme 0.4.0 or later
+* [Tersus](https://github.com/splorp/tersus/) parent theme
 
 
 ## Credits
@@ -55,9 +55,11 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 + Theme now requires WordPress 5.0 or later
 + Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.1
-+ Added `automatic-feed-links` and `title-tag` theme support features
-+ Added `register_nav_menus` function to support the theme text domain
 + Updated theme name for consistency with the theme text domain and function namespace
++ Added `register_nav_menus` function to support the theme text domain
++ Added `automatic-feed-links` theme support feature
++ Added `post-thumbnails` theme support feature
++ Added `title-tag` theme support feature
 + Removed deprecated `handheld` and `max-device-width` from media queries 
 + Embiggened site icon artwork
 + Removed legacy icon and artwork files
