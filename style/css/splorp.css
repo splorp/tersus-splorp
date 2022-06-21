@@ -107,7 +107,7 @@ input[type="url"] {
 	}
 
 input[type="checkbox"] {
-    margin-right: .5em;
+	margin-right: .5em;
 	}
 
 #searchform input[type="submit"] {
@@ -169,10 +169,10 @@ header section {
 	}
 
 #content > h2 {
-    border-bottom: 1px solid #AAA;
-    padding: 0 0 0.75em 0;
-    margin: 0 0 0.5em 0;
-    }
+	border-bottom: 1px solid #AAA;
+	padding: 0 0 0.75em 0;
+	margin: 0 0 0.5em 0;
+	}
 
 #content article {
 	border-bottom: 1px solid #AAA;
@@ -410,7 +410,7 @@ a[rel="next"] {
 
 
 /*
-	Tablet Screen Styles
+	iPad Styles
 */
 
 @media screen and (max-width: 1024px) {
