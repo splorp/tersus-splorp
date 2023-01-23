@@ -16,5 +16,5 @@ Text Domain: tersus-splorp
 Tags: three-columns, right-sidebar, post-formats, theme-options, microformats, threaded-comments
 */
 
-@import "../tersus/style.css";
-@import "style/css/splorp.css";
+@import "../tersus/style.css?2023012300";
+@import "style/css/splorp.css?2023012300";
