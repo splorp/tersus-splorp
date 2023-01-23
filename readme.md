@@ -44,7 +44,7 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for a current l
 
 The Tersus theme is absolutely free and conveniently licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html). You may use it for personal or commercial projects, as you see fit. Please refer to the [license](https://github.com/splorp/tersus/blob/master/license.txt) included with the source for more information.
 
-Copyright © 2012–2022 Grant Hutchinson
+Copyright © 2012–2023 Grant Hutchinson
 
 See the main [Tersus](https://github.com/splorp/tersus/) project for related third party [licensing information](https://github.com/splorp/tersus/#licensing).
 
@@ -56,6 +56,7 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 + Theme now requires WordPress 5.0 or later
 + Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.1
 + Updated theme name for consistency with the theme text domain and function namespace
++ Improved access to `wp_get_theme()` data
 + Added `register_nav_menus` function to support the theme text domain
 + Added `automatic-feed-links` theme support feature
 + Added `post-thumbnails` theme support feature
