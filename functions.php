@@ -6,13 +6,10 @@
 
 // Define Child Theme Constants
 
-	$theme_name = 'tersus-splorp';
-	$theme_data = wp_get_theme($theme_name);
-	
-	define('CHILD_THEME_URI', $theme_data->get('ThemeURI'));
-	define('CHILD_THEME_NAME', $theme_data->get('Name'));
-	define('CHILD_THEME_VERSION', trim($theme_data->get('Version')));
-	define('CHILD_THEME_DESCRIPTION', trim($theme_data->get('Description')));
+define('CHILD_THEME_URI', wp_get_theme()->get('ThemeURI'));
+define('CHILD_THEME_NAME', wp_get_theme()->get('Name'));
+define('CHILD_THEME_VERSION', trim(wp_get_theme()->get('Version')));
+define('CHILD_THEME_DESCRIPTION', trim(wp_get_theme()->get('Description')));
 
 // Theme feature support
  
