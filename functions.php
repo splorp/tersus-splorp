@@ -32,6 +32,31 @@ if ( ! function_exists('theme_support_features') ) {
 	add_action( 'after_setup_theme', 'theme_support_features' );
 }
 
+// Add sidebar support
+// https://developer.wordpress.org/reference/functions/register_sidebar/
+
+if ( ! function_exists('tersus_register_sidebar') ) {
+	register_sidebar( array (
+		'name'			=> 'Sidebar 1',
+		'id'			=> 'sidebar-1',
+		'before_widget'	=> '<li id="%1$s" class="widget %2$s">',
+		'after_widget'	=> '</li>',
+		'before_title'	=> '<h2 class="widgettitle">',
+		'after_title'	=> '</h2>',
+	) );
+
+	register_sidebar( array (
+		'name'			=> 'Sidebar 2',
+		'id'			=> 'sidebar-2',
+		'before_widget'	=> '<li id="%1$s" class="widget %2$s">',
+		'after_widget'	=> '</li>',
+		'before_title'	=> '<h2 class="widgettitle">',
+		'after_title'	=> '</h2>',
+	) );
+}
+
+add_action( 'widgets_init', 'tersus_register_sidebar' );
+
 // Page menu support
 // http://codex.wordpress.org/Function_Reference/register_nav_menus
 
