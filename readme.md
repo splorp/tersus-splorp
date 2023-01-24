@@ -51,6 +51,10 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ## Version History
 
+### 0.1.5
+
++ Fixed alignment of ‘cancel reply’ button
+
 ### 0.1.4
 
 + Theme now requires WordPress 5.0 or later
