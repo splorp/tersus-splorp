@@ -54,10 +54,12 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 ### 0.1.4
 
 + Theme now requires WordPress 5.0 or later
++ Theme now passes the basic [Theme Review Process](https://make.wordpress.org/themes/handbook/review/) tests
 + Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.1
 + Updated theme name for consistency with the theme text domain and function namespace
 + Improved access to `wp_get_theme()` data
 + Added `register_nav_menus` function to support the theme text domain
++ Added `register_sidebar()` function for better dynamic sidebar support
 + Added `automatic-feed-links` theme support feature
 + Added `post-thumbnails` theme support feature
 + Added `title-tag` theme support feature
