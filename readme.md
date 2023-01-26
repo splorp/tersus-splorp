@@ -53,7 +53,7 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ### 0.1.5
 
-+ Fixed alignment of ‘cancel reply’ button
++ Fixed alignment of “Cancel Reply” link
 
 ### 0.1.4
 
@@ -72,11 +72,9 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 + Removed legacy icon and artwork files
 + Updated license to [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
 
-
 ### 0.1.3
 
 + Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.0
-
 
 ### 0.1.2
 
@@ -100,7 +98,6 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 + Added support for the proliferation of various iOS and Windows 8 iconography
 + Replaced the rather free spirited theme tags with official WordPress tags
 
-
 ### 0.1.1
 
 + Fixed announcement section margin
@@ -111,7 +108,6 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 + Added selectors for standard image alignment classes
 + Added function to retrieve child theme information as constants
 + Deprecated subcategory list selectors
-
 
 ### 0.1.0
 
