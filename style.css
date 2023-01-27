@@ -6,7 +6,7 @@ Author: Grant Hutchinson
 Author URI: https://github.com/splorp/
 Version: 0.1.5
 Template: tersus
-Template Version: 0.4.1
+Template Version: 0.4.2
 Requires at least: 5.0
 Tested up to: 6.1
 Requires PHP: 7.0
@@ -16,5 +16,5 @@ Text Domain: tersus-splorp
 Tags: three-columns, right-sidebar, post-formats, theme-options, microformats, threaded-comments
 */
 
-@import "../tersus/style.css?2023012401";
-@import "style/css/splorp.css?2023012401";
+@import "../tersus/style.css?2023012700";
+@import "style/css/splorp.css?2023012700";
