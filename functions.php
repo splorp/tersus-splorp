@@ -12,7 +12,7 @@ define('CHILD_THEME_VERSION', trim(wp_get_theme()->get('Version')));
 define('CHILD_THEME_DESCRIPTION', trim(wp_get_theme()->get('Description')));
 
 // Theme feature support
- 
+
 if ( ! function_exists('theme_support_features') ) {
 	function theme_support_features() {
 
@@ -77,11 +77,11 @@ if ( ! function_exists( 'tersus_splorp_delim' ) ) {
 	function tersus_splorp_delim($d) {
 		return '&nbsp;';
 		}
-	
+
 	add_filter( 'post_link_delim', 'tersus_splorp_delim' );
 	add_filter( 'posts_link_delim', 'tersus_splorp_delim' );
 	add_filter( 'image_link_delim', 'tersus_splorp_delim' );
 	add_filter( 'comment_link_delim', 'tersus_splorp_delim' );
-	
+
 	}
 ?>

@@ -41,7 +41,7 @@ code {
 .published {
 	color: #AAA;
 	}
-	
+
 li .published {
 	margin-bottom: 0.5em;
 	}
@@ -88,7 +88,7 @@ input[type="submit"]:hover {
 	background: #333;
 	color: #FFF;
 	}
-	
+
 input[type="reset"]:active,
 input[type="submit"]:active {
 	background: #960;
@@ -137,7 +137,7 @@ header p {
 	margin: 0;
 	padding: 0;
 	}
-	
+
 header section {
 	margin-bottom: 2em;
 	}
@@ -152,7 +152,7 @@ header section {
 #content > p {
 	margin-bottom: 2em;
 	}
-	
+
 #content > h1 {
 	color: #960;
 	font-size: 2em;
@@ -269,7 +269,7 @@ footer {
 	font-size: 0.8em;
 	padding: 2em 0;
 	}
-	
+
 footer a,
 footer a:visited {
 	color: #666;
@@ -353,7 +353,7 @@ a[rel="next"] {
 	line-height: 1.4;
 	margin: 0 0 0.2em;
 	}
-	
+
 .post-quote p cite {
 	display: block;
 	font-family: helvetica, arial, sans-serif;
@@ -361,7 +361,7 @@ a[rel="next"] {
 	font-weight: bold;
 	text-align: right;
 	}
-	
+
 .post-quote blockquote + p,
 .post-quote blockquote + p + p,
 .post-quote blockquote + p + ul,
@@ -419,7 +419,7 @@ a[rel="next"] {
 		-webkit-text-size-adjust: 100%;
 		padding: 1em;
 		}
-	
+
 	header,
 	footer {
 		float: none;
@@ -435,17 +435,17 @@ a[rel="next"] {
 		float: right;
 		width: 35%;
 		}
-	
+
 	#content article img {
 		float: none;
 		}
-	
+
 	textarea {
 		max-width: 100%;
 		}
 }
-	
-	
+
+
 /*
 	Small Screen Styles
 */
@@ -456,7 +456,7 @@ a[rel="next"] {
 		-webkit-text-size-adjust: 100%;
 		padding: 1em;
 		}
-	
+
 	header,
 	#content,
 	aside,
@@ -464,7 +464,7 @@ a[rel="next"] {
 		float: none;
 		width: 95%;
 		}
-	
+
 	header {
 		border-bottom: 1px solid #AAA;
 		margin: 0 0 1em 0;
@@ -494,11 +494,11 @@ a[rel="next"] {
 		margin: 0 0 1em 0;
 		padding: 0 0 0.5em 0;
 		}
-		
+
 	#content article img {
 		float: none;
 		}
-	
+
 	textarea {
 		max-width: 100%;
 		}
