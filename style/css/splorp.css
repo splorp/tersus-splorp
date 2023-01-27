@@ -375,10 +375,6 @@ a[rel="next"] {
 	Gallery Styles
 */
 
-.gallery {
-	float: right;
-	}
-
 .gallery dl {
 	display: inline;
 	float: left;
@@ -407,7 +403,6 @@ a[rel="next"] {
 .location {
 	display: none;
 	}
-
 
 
 /*
