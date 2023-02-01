@@ -35,6 +35,7 @@ blockquote > p:last-child {
 
 code {
 	background: #DDD;
+	font-size: 0.9em;
 	padding: 0.3em 0.5em;
 	}
 
@@ -72,7 +73,7 @@ input[type="submit"] {
 	border: none;
 	color: #FFF;
 	cursor: pointer;
-	font-size: 0.5em;
+	font-size: 0.8em;
 	font-weight: normal;
 	padding: 0.6em 1.0em;
 	vertical-align: middle;
@@ -145,7 +146,7 @@ header section {
 #content {
 	float: left;
 	margin: 0;
-	padding: 0 0 1em 0;
+	padding: 0 0 4em 0;
 	width: 49%;
 	}
 
@@ -183,7 +184,26 @@ header section {
 
 #content > nav {
 	border: none;
-	float: none;
+	padding: 0 0 2.0em 0;
+	margin: -1.0em 0 0 0;
+	}
+
+#content ol + nav {
+	border-top: 1px solid #AAA;
+	margin-top: 3.0em;
+	padding-top: 1.0em;
+	}
+
+#content ol + #respond {
+	border-top: 1px solid #AAA;
+	clear: both;
+	margin-top: 2.0em;
+	padding-top: 3.0em;
+	}
+
+#content nav + #respond {
+	clear: both;
+	margin-top: 3.0em;
 	}
 
 #respond {
