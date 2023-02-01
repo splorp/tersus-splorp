@@ -312,11 +312,13 @@ a[rel="prev"]:hover {
 	}
 
 a[rel="next"]::after {
-	content: ' ›';
+	content: ' ▶︎';
+	font-size: 0.5em;
 	}
 
 a[rel="prev"]::before {
-	content: '‹ ';
+	content: '◀︎ ';
+	font-size: 0.5em;
 	}
 
 a[rel="prev"] {
