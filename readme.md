@@ -53,7 +53,10 @@ See the main [Tersus](https://github.com/splorp/tersus/) project for related thi
 
 ### 0.1.5
 
++ Bumped [Tersus](https://github.com/splorp/tersus/) template version to 0.4.2
++ Adjusted post and comment page navigation appearance and positioning
 + Fixed alignment of “Cancel Reply” link
++ Fixed alignment of gallery thumbnails and captions
 
 ### 0.1.4
 
